@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Tech Hub- WDD 231 Portfolio</title>
+    <meta name="description"
+        content="Elite tech hub WD231 Portfolio describing about me,interests and many more others." />
+    <meta name="author" content="Bwire Simon Peter" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Elite Logo" />
+                <span>Elitefx Tech Hub</span>
+            </div>
+            <button id="hamburgerBtn"><span>&#9776;</span></button>
+
+
+            <nav>
+                <ul id="navLinks">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#">Chamber project</a></li>
+                    <li><a href="#">Final project</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section class="main-section">
+            <div class="container-About">
+                <div class="content-header">
+                    <h2>About Me</h2>
+                </div>
+                <div class="content-body">
+                    <p>
+                        I am Bwire Simon Peter, a passionate web developer and tech enthusiast. I have a keen interest
+                        in creating
+                        innovative web solutions that enhance user experiences. With a background in computer science, I
+                        enjoy
+                        that am achieving through my studies at BYU Pathway Worldwide. In my free time, I love exploring
+                        new technologies,
+                        contributing to open-source projects, and staying updated with the latest trends in web
+                        development.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-section">
+                <div class="photo-header">
+                    <h2>Student Photo</h2>
+                    <div class="card-photo">
+                        <img src="images/profile.jpg" alt="Student Photo" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="header-container">
+            <h2>Web Certificate Courses</h2>
+            <div class="filters-buttons">
+                <button class="btn" id="all">All</button>
+                <button class="btn" id="cse">CSE</button>
+                <button class="btn" id="wdd">WDD</button>
+            </div>
+            <div class="course-container" id="course-container">
+
+            </div>
+            <div class="credits-display">
+                <p>The total credits for the courses listed is <span id="totalCredits">0</span></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <div class="btn-bottom">
+                <img width="100" src="images/linkedin.svg" alt="linkedin" />
+                <img width="100" src="images/github.svg" alt="github" />
+                <img width="100" src="images/instagram.svg" alt="instagram" />
+            </div>
+            <div class="footer-content">
+                <p>&copy; <span id="currentyear"></span> Bwire Simon Peter, Uganda<br>
+                    Last Modified: <span id="lastModified"></span></p>
+            </div>
+    </footer>
+</body>
+
+</html>

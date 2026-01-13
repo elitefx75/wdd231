@@ -1,0 +1,271 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+   margin: 20px;
+}
+
+.header-top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background-color: white;
+}
+
+.logo {
+   font-size: 15px;
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.header-top .logo img {
+   font-size: 35px;
+}
+
+.header-top .logo span {
+   padding-top: 15px;
+   font-size: 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+   list-style-type: none;
+   border-radius: 8px;
+   background-color: #ddd;
+   overflow: hidden;
+   display: none;
+}
+
+nav ul.open {
+   display: block;
+}
+
+nav ul li a {
+   display: block;
+   color: black;
+   text-align: left;
+   padding: 1rem;
+   text-decoration: none;
+   border-bottom: 1px solid #bbb;
+}
+
+nav ul li a:hover {
+   background-color: #bbb;
+}
+
+.active a {
+   background-color: #666;
+   color: white;
+}
+
+a.active {
+   background-color: #666;
+   color: white;
+}
+
+#hamburgerBtn {
+   font-size: 2rem;
+   background: none;
+   border: none;
+   cursor: pointer;
+}
+
+main {
+   margin: 20px;
+}
+
+.main-section {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   border-radius: 5px;
+}
+
+.content-body,
+.photo-header,
+.photo-section,
+.container-About {
+   padding: 20px;
+   border-radius: 5px;
+   background-color: #f4f4f4;
+   color: #333;
+
+}
+
+.content-body p {
+   font-size: 20px;
+}
+
+.card-photo {
+   width: 300px;
+   max-width: 100%;
+   aspect-ratio: 1 / 1;
+   margin: 20px auto;
+   box-shadow: 3px 10px 4px 3px rgba(0, 0, 0, 0.2);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   position: relative;
+   border-radius: 8px;
+   transition: transform 0.3s;
+}
+
+.card-photo:hover {
+   transform: scale(1.05);
+}
+
+.card-photo img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+   display: block;
+}
+
+.header-container h2 {
+   margin-top: 20px;
+   text-align: center;
+   background-color: #222;
+   color: #bbb;
+   border-radius: 5px;
+   padding: 10px;
+   box-shadow: 3px 10px 4px 3px rgba(0, 0, 0, 0.15);
+}
+
+.header-container h2:hover {
+   background-color: #333;
+}
+
+
+.filter-buttons {
+
+   display: flex;
+   justify-content: space-between;
+   margin-top: 25px;
+}
+
+.filters-buttons {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 25px;
+}
+
+.btn {
+   flex: 1;
+   margin: 0 8px;
+   padding: 12px 16px;
+   background-color: #ddd;
+   border: 1px solid #999;
+   border-radius: 8px;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 1.05rem;
+}
+
+.btn:hover {
+   background-color: #ccc;
+}
+
+
+.course-card {
+   margin-top: 20px;
+   background-color: #ccc;
+   padding: 15px;
+   text-align: center;
+   margin-bottom: 10px;
+   border: 1px solid #999;
+   border-radius: 5px;
+   font-weight: bold;
+   color: #333;
+}
+
+
+.course-card.completed {
+   background-color: #d4edda;
+   border-color: #c3e6cb;
+   color: #155724;
+}
+
+.course-card.completed::before {
+   content: "✅ ";
+}
+
+.credits-display {
+   text-align: center;
+   margin-top: 20px;
+   font-weight: bold;
+   color: #333;
+}
+
+footer {
+   text-align: center;
+   margin-top: 40px;
+}
+
+.footer-content {
+   background-color: #666;
+   color: white;
+   padding: 12px 16px;
+   margin: 12px;
+   display: flex;
+   justify-content: center;
+   font-size: 16px;
+}
+
+.footer-bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-top: 20px;
+}
+
+.btn-bottom {
+   margin-bottom: 12px;
+   transition: transform 0.3s;
+   box-shadow: 6px 8px 8px 6px #ccc;
+}
+
+.btn-bottom:hover {
+   transform: scale(1.03);
+
+}
+
+.header-container {
+   color: #155724;
+}
+
+nav {
+   position: relative;
+}
+
+@media (max-width: 768px) {
+   nav ul {
+      position: absolute;
+      left: 0;
+      top: calc(100% + 8px);
+      width: 100%;
+      border-radius: 0;
+      display: none;
+   }
+
+   nav ul.open {
+      display: block;
+   }
+
+   nav ul li a {
+      text-align: left;
+      padding-left: 1rem;
+   }
+}
