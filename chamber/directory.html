@@ -2,33 +2,122 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chamber of commerce</title>
-    <meta name="description"
-        content="local organization of businesses that work together to strengthen the business interests of the group." />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timbuktu Chamber of Commerce Directory</title>
+    <meta name="description" content="Business directory for the Timbuktu Chamber of Commerce" />
     <meta name="author" content="Bwire Simon Peter" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <meta property="og:title" content="Facebook">
     <meta property="og:description"
         content="Connect with friends and the world around you, enjoying more of what you love, reels, stories and pages, all in one place through Facebook.">
     <meta property="og:url" content="https://www.facebook.com/">
     <meta property="og:locale" content="en_US">
-    <meta property="og:image"
-        content="https://tse3.mm.bing.net/th/id/OIP.TJPPqgPkbIoECkGmtCrmIQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3">
+    <meta property="og:image" content="https://elitefx75.github.io/wdd231/images/social-preview.jpg">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Facebook">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="styles/">
-    <link rel="stylesheet" href="styles/">
-    <link rel="icon" href="favicon.ico">
-    <script src="scripts/navigation.js" defer></script>
+    <meta property="og:url" content="https://github.com/elitefx75/wdd231/blob/main/chamber/directory.html" />>
+    <link rel="stylesheet" href="styles/chamber.css" />
+    <link rel="stylesheet" href="styles/chamber-large.css" />
+    <script src="scripts/chamber.js" defer></script>
 </head>
 
 <body>
+    <header>
 
+        <div class="header-top">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Chamber Logo" />
+                <span></span>
+                <button id="hamburger">☰</button>
+            </div>
+            <nav id="navMenu"></nav>
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+
+
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Timbuktu Chamber Hero Image" />
+            <div class="hero-content">
+                <h1>Jinja Traders Chamber</h1>
+                <div class="hero-btns">
+                    <button>Join Us</button>
+                    <button>Keynote Tickets</button>
+                    <button>Discover More</button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Business Networking Night – Jan 25, 2026</li>
+                <li>Annual Chamber Gala – Feb 10, 2026</li>
+                <li>Entrepreneur Workshop – Mar 5, 2026</li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2>Current Weather</h2>
+            <ul>
+                <li>Temperature: 75°F</li>
+                <li>Conditions: Partly Cloudy</li>
+                <li>High: 85°</li>
+                <li>Low: 52°</li>
+                <li>Humidity: 34%</li>
+                <li>Sunrise: 7:30am</li>
+                <li>Sunset: 9:59pm</li>
+            </ul>
+        </section>
+        <section class="forecast">
+            <h2>Weather Forecast</h2>
+            <ul>
+                <li>Today: 90°F</li>
+                <li>Wednesday: 89°F</li>
+                <li>Thursday: 68°F</li>
+            </ul>
+        </section>
+        <section class="directory">
+            <h2>Member Directory</h2>
+            <div class="view-toggle">
+                <button id="grid">Grid View</button>
+                <button id="list">List View</button>
+            </div>
+            <div id="members" class="grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <div class="btn-bottom">
+                <img width="100" src="images/linkedin.svg" alt="linkedin" />
+                <img width="100" src="images/twitter.svg" alt="github" />
+                <img width="100" src="images/instagram.svg" alt="instagram" />
+            </div>
+            <div class="footer-content">
+                <p>&copy; <span id="currentyear"></span> Bwire Simon Peter, Uganda<br>
+                    Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

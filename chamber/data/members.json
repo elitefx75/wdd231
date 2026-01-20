@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Sahara Tours",
+        "address": "123 Desert Road, Timbuktu",
+        "phone": "800-555-1234",
+        "website": "https://saharatours.com",
+        "image": "saharatours.jpg",
+        "membership": 3,
+        "info": "Leading travel company specializing in desert expeditions."
+    },
+    {
+        "name": "Nxt Decor",
+        "address": "Radio Street, Jinja",
+        "phone": "747751252",
+        "website": "https://nxtdecor.com",
+        "image": "nxtdecor.jpg",
+        "membership": 1,
+        "info": "Traditional fabrics and modern designs."
+    },
+    {
+        "name": "Mafabi stockist",
+        "address": "Industrial Street, Mafubira",
+        "phone": "776543219",
+        "website": "https://mafabistockist.com",
+        "image": "mafabi.jpg",
+        "membership": 2,
+        "info": "Dealers in all drinks."
+    },
+    {
+        "name": "2k shoppers",
+        "address": "Main street, Bugembe",
+        "phone": "755387456",
+        "website": "https://2kshoppers.com",
+        "image": "2k-shoppers.jpg",
+        "membership": 1,
+        "info": "All home use items."
+    },
+    {
+        "name": "Bidco Uganda Ltd",
+        "address": "7 street , Massese",
+        "phone": "778975653",
+        "website": "https://bidco.com",
+        "image": "bidco.jpg",
+        "membership": 3,
+        "info": "Modern food ingredients."
+    },
+    {
+        "name": "Madhivani Produce",
+        "address": "Industrial area, Kakira",
+        "phone": "744556780",
+        "website": "https://madhivani.com",
+        "image": "images/market.jpg",
+        "membership": 3,
+        "info": "Dealers in all food produces."
+    },
+    {
+        "name": "Mali Textiles",
+        "address": "45 Market Street, Bugembe",
+        "phone": "765890895",
+        "website": "https://malitextiles.com",
+        "image": "images/mali.jpg",
+        "membership": 2,
+        "info": "Cultural designs and fabrics."
+    }
+]
