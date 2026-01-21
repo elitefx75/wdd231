@@ -24,11 +24,12 @@ header nav ul {
     background: #373737;
 }
 
-header nav ul li a {
-    color: white;
+nav ul li a {
+    color: rgb(216, 32, 32);
     padding: 1rem;
     display: block;
     text-decoration: none;
+    background-color: #373737;
 }
 
 .view-toggle {

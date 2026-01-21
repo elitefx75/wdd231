@@ -45,21 +45,21 @@
         "info": "Modern food ingredients."
     },
     {
-        "name": "Madhivani Produce",
-        "address": "Industrial area, Kakira",
-        "phone": "744556780",
-        "website": "https://madhivani.com",
-        "image": "images/market.jpg",
+        "name": "Frank Textiles",
+        "address": "Ghokale Road , Bugembe",
+        "phone": "764583450",
+        "website": "https://franktextiles.com",
+        "image": "franktextiles.jpg",
         "membership": 3,
-        "info": "Dealers in all food produces."
+        "info": "Modern food ingredients."
     },
     {
-        "name": "Mali Textiles",
-        "address": "45 Market Street, Bugembe",
-        "phone": "765890895",
-        "website": "https://malitextiles.com",
-        "image": "images/mali.jpg",
-        "membership": 2,
-        "info": "Cultural designs and fabrics."
+        "name": "Elite phone centre",
+        "address": "Obojja , JInja",
+        "phone": "77756533",
+        "website": "https://elitephones.com",
+        "image": "elitephones.jpg",
+        "membership": 3,
+        "info": "Modern food ingredients."
     }
 ]
