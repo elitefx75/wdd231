@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jinja Trader's Chamber | Home</title>
+    <meta name="description" content="Business directory for the Timbuktu Chamber of Commerce" />
+    <meta name="author" content="Bwire Simon Peter" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta property="og:title" content="Facebook">
+    <meta property="og:description"
+        content="Connect with friends and the world around you, enjoying more of what you love, reels, stories and pages, all in one place through Facebook.">
+    <meta property="og:url" content="https://www.facebook.com/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://elitefx75.github.io/wdd231/images/social-preview.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Facebook">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display&display=swap"
+        rel="stylesheet" />
+    <meta property="og:url" content="https://github.com/elitefx75/wdd231/blob/main/chamber/directory.html" />
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/body.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/chamber-large.css" />
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+
+            <span>Jinja Trader's Chamber</span>
+
+            <button id="hamburgerBtn"><span>&#9776;</span></button>
+        </div>
+
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="hero-container">
+
+
+            <img src="images/hero.jpg" alt="Jinja Chamber Hero Image" class="hero-img">
+
+
+            <div class="hero-msg">
+                <h1>Welcome to Jinja Trader's Chamber</h1>
+                <p>The heartbeat of trade, culture, and community growth.</p>
+
+                <div class="hero-btns">
+                    <a href="join.html" class="btn primary">Join the Chamber</a>
+                    <a href="directory.html" class="btn secondary">Discover more</a>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="eventtt">
+            <h2>Upcoming Events</h2>
+            <section class="event">
+                <section id="events">
+                    <h3>Local Events</h3>
+                    <p>Stay updated on business fairs, workshops, and community gatherings happening in Jinja.</p>
+                </section>
+
+                <section id="networking">
+                    <h3>Networking Opportunities</h3>
+                    <p>Connect with fellow entrepreneurs, attend meetups, and grow your professional circle.</p>
+                </section>
+
+                <section id="directory">
+                    <h3>Business Directory</h3>
+                    <p>Explore a comprehensive list of local businesses and services in Jinja.</p>
+                </section>
+
+                <section id="shopping">
+                    <h3>Encourage Local Shopping</h3>
+                    <p>Support Jinja economy by shopping locally and discovering unique products.</p>
+                </section>
+            </section>
+        </section>
+
+        <section class="spotlights">
+            <h2>Current Weather</h2>
+
+
+            <div class="weather-container">
+                <img src="images/sun.jpg" class="weather-img hero-img" alt="Weather">
+                <div class="weather-card">
+                    <div class="weather-content">
+                        <h3 id="city-name">Jinja</h3>
+                        <figure>
+                            <img id="weather-icon" alt="Weather icon">
+                            <figcaption id="weather-desc"></figcaption>
+                        </figure>
+                        <p><span id="current-temp">--</span>°C</p>
+                        <p id="description"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div class="spotlight-container" id="spotlight-container">
+
+            </div>
+        </section>
+
+
+        <div class="menu-btns">
+
+            <button id="grid-btn">📅 Grid</button>
+            <button id="list-btn">📄 List</button>
+
+        </div>
+
+        <div id="members-container" class="grid-view"></div>
+        <script src="scripts/chamber.js"></script>
+    </main>
+    <footer>
+        <div class="footer-bottom">
+
+            <div class="btn-bottom">
+                <img width="100" src="images/linkedin.svg" alt="linkedin" />
+                <img width="100" src="images/twitter.svg" alt="github" />
+                <img width="100" src="images/instagram.svg" alt="instagram" />
+            </div>
+
+        </div>
+
+
+        <div class="footer-content">
+
+            <p>&copy; <span id="currentyear"></span> Bwire Simon Peter, Uganda<br>
+                Last Modified: <span id="lastModified"></span></p>
+
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>

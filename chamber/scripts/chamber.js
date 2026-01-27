@@ -1,20 +1,29 @@
-const hamburger = document.querySelector('#hamburger');
-const navMenu = document.querySelector('#navMenu');
+const hamburger = document.querySelector('#hamburgerBtn') || document.querySelector('#hamburger');
+const navMenu = document.querySelector('#primaryNav') || document.querySelector('#navMenu');
 
-hamburger.addEventListener('click', () => {
-  navMenu.classList.toggle('open');
+if (hamburger && navMenu) {
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
 
-  if (navMenu.classList.contains('open')) {
-    hamburger.textContent = '✖';
-  } else {
-    hamburger.textContent = '☰';
-  }
-});
+    if (navMenu.classList.contains('open')) {
+      hamburger.textContent = '✖';
+    } else {
+      hamburger.textContent = '☰';
+    }
+  });
+}
 
 
 const membersContainer = document.querySelector('#members');
 const lastModified = document.querySelector('#lastModified');
-lastModified.textContent = document.lastModified;
+const currentYear = document.querySelector('#currentyear');
+
+if (lastModified) {
+  lastModified.textContent = document.lastModified;
+}
+if (currentYear) {
+  currentYear.textContent = new Date().getFullYear();
+}
 
 async function getMembers() {
   const response = await fetch('data/members.json');
@@ -29,7 +38,7 @@ function displayMembers(members) {
     card.classList.add('member-card');
 
     card.innerHTML = `
-      <img src="images/${member.image}" alt="${member.name}">
+      <img src="${member.image}" alt="${member.name}">
       <h2>${member.name}</h2>
       <p>${member.info}</p>
       <p><strong>Address:</strong> ${member.address}</p>
@@ -52,5 +61,7 @@ document.querySelector('#list').addEventListener('click', () => {
   membersContainer.classList.add('list');
   membersContainer.classList.remove('grid');
 });
+
+getMembers();
 
 getMembers();

@@ -4,8 +4,9 @@
         "address": "123 Desert Road, Timbuktu",
         "phone": "800-555-1234",
         "website": "https://saharatours.com",
-        "image": "saharatours.jpg",
-        "membership": 3,
+        "image": "images/saharatours.jpg",
+        "logo": "images/saharatours.jpg",
+        "membership": "Gold",
         "info": "Leading travel company specializing in desert expeditions."
     },
     {
@@ -13,8 +14,9 @@
         "address": "Radio Street, Jinja",
         "phone": "747751252",
         "website": "https://nxtdecor.com",
-        "image": "nxtdecor.jpg",
-        "membership": 1,
+        "image": "images/nxtdecor.jpg",
+        "logo": "images/nxtdecor.jpg",
+        "membership": "Bronze",
         "info": "Traditional fabrics and modern designs."
     },
     {
@@ -22,8 +24,9 @@
         "address": "Industrial Street, Mafubira",
         "phone": "776543219",
         "website": "https://mafabistockist.com",
-        "image": "mafabi.jpg",
-        "membership": 2,
+        "image": "images/mafabi.jpg",
+        "logo": "images/mafabi.jpg",
+        "membership": "Silver",
         "info": "Dealers in all drinks."
     },
     {
@@ -31,8 +34,9 @@
         "address": "Main street, Bugembe",
         "phone": "755387456",
         "website": "https://2kshoppers.com",
-        "image": "2k-shoppers.jpg",
-        "membership": 1,
+        "image": "images/2k-shoppers.jpg",
+        "logo": "images/2k-shoppers.jpg",
+        "membership": "Bronze",
         "info": "All home use items."
     },
     {
@@ -40,8 +44,9 @@
         "address": "7 street , Massese",
         "phone": "778975653",
         "website": "https://bidco.com",
-        "image": "bidco.jpg",
-        "membership": 3,
+        "image": "images/bidco.jpg",
+        "logo": "images/bidco.jpg",
+        "membership": "Gold",
         "info": "Modern food ingredients."
     },
     {
@@ -49,8 +54,9 @@
         "address": "Ghokale Road , Bugembe",
         "phone": "764583450",
         "website": "https://franktextiles.com",
-        "image": "franktextiles.jpg",
-        "membership": 3,
+        "image": "images/franktextiles.jpg",
+        "logo": "images/franktextiles.jpg",
+        "membership": "Silver",
         "info": "Modern food ingredients."
     },
     {
@@ -58,8 +64,9 @@
         "address": "Obojja , JInja",
         "phone": "77756533",
         "website": "https://elitephones.com",
-        "image": "elitephones.jpg",
-        "membership": 3,
+        "image": "images/elitephones.jpg",
+        "logo": "images/elitephones.jpg",
+        "membership": "Gold",
         "info": "Modern food ingredients."
     }
 ]
