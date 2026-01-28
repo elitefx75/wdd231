@@ -91,7 +91,7 @@ nav a.active {
 }
 
 /* Mobile-first */
-#navMenu {
+#primaryNav {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -101,11 +101,11 @@ nav a.active {
     background-color: var(--secondary);
 }
 
-#navMenu.open {
+#primaryNav.open {
     display: flex;
 }
 
-#hamburger {
+#hamburgerBtn {
     font-size: 2rem;
     background: none;
     border: none;
@@ -115,22 +115,20 @@ nav a.active {
 }
 
 @media screen and (min-width: 768px) {
-    #hamburger {
+    #hamburgerBtn {
         display: none;
     }
 
-    #navMenu {
-        display: block;
+    #primaryNav {
+        display: flex;
         position: static;
         width: auto;
         flex-direction: row;
         background-color: var(--primary);
     }
 
-    #navMenu ul {
-        display: flex;
-        gap: 2rem;
-        justify-content: center;
+    #primaryNav li {
+        list-style: none;
     }
 }
 
