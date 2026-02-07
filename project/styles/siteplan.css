@@ -1,0 +1,49 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;
+    color: #e67e22;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #004080;
+}
+
+footer {
+    background-color: #004080;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
