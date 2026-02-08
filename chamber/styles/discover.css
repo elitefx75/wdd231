@@ -44,7 +44,8 @@ nav a {
     flex-direction: column;
     box-sizing: border-box;
     width: 100%;
-    min-height: 420px; /* consistent height for all cards */
+    min-height: 420px;
+    /* consistent height for all cards */
 }
 
 .card figure {
@@ -66,12 +67,15 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    flex: 1; /* ensures card-body grows */
-    justify-content: space-between; /* pushes button down */
+    flex: 1;
+    /* ensures card-body grows */
+    justify-content: space-between;
+    /* pushes button down */
 }
 
 .card-body .learn-more {
-    margin-top: auto; /* anchors button at bottom */
+    margin-top: auto;
+    /* anchors button at bottom */
     align-self: flex-start;
 }
 
@@ -115,28 +119,8 @@ nav a {
     }
 
     .card {
-        min-height: 380px; /* slightly smaller but still consistent */
-    }
-}
-
-/* Hover effect (desktop only) */
-@media (min-width: 641px) {
-    .card figure img:hover {
-        filter: brightness(85%);
-        transform: scale(1.05);
-        transition: 0.3s ease;
-    }
-}
-
-/* Tweak cards for small screens */
-@media (max-width: 640px) {
-    .grid-container {
-        gap: 12px;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-
-    .card {
+        min-height: 380px;
+        /* slightly smaller but still consistent */
         padding: 10px;
         border-radius: 6px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
@@ -165,5 +149,14 @@ nav a {
     .learn-more {
         padding: 0.5rem;
         font-size: 0.95rem;
+    }
+}
+
+/* Hover effect (desktop only) */
+@media (min-width: 641px) {
+    .card figure img:hover {
+        filter: brightness(85%);
+        transform: scale(1.05);
+        transition: 0.3s ease;
     }
 }
