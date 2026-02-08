@@ -1,0 +1,169 @@
+:root {
+    --brand-color: #004080;
+    /* footer/header brand color */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+header,
+footer {
+    background-color: var(--brand-color);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Card styling */
+.card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 420px; /* consistent height for all cards */
+}
+
+.card figure {
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: 0 0 0.75rem 0;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.card figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1; /* ensures card-body grows */
+    justify-content: space-between; /* pushes button down */
+}
+
+.card-body .learn-more {
+    margin-top: auto; /* anchors button at bottom */
+    align-self: flex-start;
+}
+
+/* Titles and button colors */
+.card h2 {
+    color: var(--brand-color);
+}
+
+.learn-more {
+    background-color: var(--brand-color);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.learn-more:hover {
+    filter: brightness(0.95);
+}
+
+/* Very small screens */
+@media (max-width: 360px) {
+    .card h2 {
+        font-size: 0.95rem;
+    }
+
+    .card .description {
+        font-size: 0.9rem;
+    }
+}
+
+/* Small screens */
+@media (max-width: 640px) {
+    .card-body .learn-more {
+        align-self: stretch;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: auto;
+    }
+
+    .card {
+        min-height: 380px; /* slightly smaller but still consistent */
+    }
+}
+
+/* Hover effect (desktop only) */
+@media (min-width: 641px) {
+    .card figure img:hover {
+        filter: brightness(85%);
+        transform: scale(1.05);
+        transition: 0.3s ease;
+    }
+}
+
+/* Tweak cards for small screens */
+@media (max-width: 640px) {
+    .grid-container {
+        gap: 12px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .card {
+        padding: 10px;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+    }
+
+    .card figure {
+        aspect-ratio: 4/3;
+        margin-bottom: 0.6rem;
+        border-radius: 6px;
+    }
+
+    .card h2 {
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .card .description {
+        font-size: 0.95rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .card-body {
+        gap: 0.4rem;
+    }
+
+    .learn-more {
+        padding: 0.5rem;
+        font-size: 0.95rem;
+    }
+}
