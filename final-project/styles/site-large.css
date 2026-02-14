@@ -1,0 +1,80 @@
+@media (min-width: 768px) {
+    nav {
+        display: flex !important;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    section {
+        background: white;
+        padding: 1rem;
+    }
+
+    #nav-links {
+        display: flex !important;
+        flex-direction: row;
+        gap: 1rem;
+        background: none;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .service-card,
+    .career-card {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 0.5rem;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .service-card img,
+    .career-card img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 6px;
+        flex-shrink: 0;
+    }
+
+    .service-card .text,
+    .career-card .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .service-card h3,
+    .career-card h3 {
+        margin-bottom: 0.5rem;
+        order: -1;
+    }
+
+    .service-card p,
+    .career-card p {
+        margin: 0.25rem 0;
+    }
+
+    #services-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}

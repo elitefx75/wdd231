@@ -1,0 +1,139 @@
+{
+    "services": [
+        {
+            "name": "Energy Solutions",
+            "description": "Hydro and solar projects.",
+            "sector": "Energy",
+            "year": 2025,
+            "image": "energy.jpg"
+        },
+        {
+            "name": "Real Estate Development",
+            "description": "Affordable housing.",
+            "sector": "Real Estate",
+            "year": 2024,
+            "image": "realestate.jpg"
+        },
+        {
+            "name": "Fintech Apps",
+            "description": "Digital banking.",
+            "sector": "Finance",
+            "year": 2026,
+            "image": "fintech.jpg"
+        },
+        {
+            "name": "Agricultural Exports",
+            "description": "Coffee and tea trade.",
+            "sector": "Agriculture",
+            "year": 2023,
+            "image": "agriculture.jpg"
+        },
+        {
+            "name": "Tourism Services",
+            "description": "Eco tours.",
+            "sector": "Tourism",
+            "year": 2025,
+            "image": "tourism.jpg"
+        },
+        {
+            "name": "Logistics",
+            "description": "Transport solutions.",
+            "sector": "Logistics",
+            "year": 2024,
+            "image": "logistics.jpg"
+        },
+        {
+            "name": "Education Programs",
+            "description": "Training courses.",
+            "sector": "Education",
+            "year": 2026,
+            "image": "education.jpg"
+        },
+        {
+            "name": "Healthcare Clinics",
+            "description": "Community health.",
+            "sector": "Healthcare",
+            "year": 2025,
+            "image": "healthcare.jpg"
+        },
+        {
+            "name": "ICT Solutions",
+            "description": "Web and mobile apps.",
+            "sector": "Technology",
+            "year": 2026,
+            "image": "ict.jpg"
+        },
+        {
+            "name": "Manufacturing",
+            "description": "Industrial products.",
+            "sector": "Manufacturing",
+            "year": 2024,
+            "image": "manufacturing.jpg"
+        },
+        {
+            "name": "Retail Outlets",
+            "description": "Consumer goods.",
+            "sector": "Retail",
+            "year": 2023,
+            "image": "retail.jpg"
+        },
+        {
+            "name": "Construction",
+            "description": "Infrastructure projects.",
+            "sector": "Construction",
+            "year": 2025,
+            "image": "construction.jpg"
+        },
+        {
+            "name": "Consultancy",
+            "description": "Business advisory.",
+            "sector": "Consulting",
+            "year": 2026,
+            "image": "consultancy.jpg"
+        },
+        {
+            "name": "Media Production",
+            "description": "Digital content.",
+            "sector": "Media",
+            "year": 2024,
+            "image": "media.jpg"
+        },
+        {
+            "name": "Environmental Services",
+            "description": "Waste management.",
+            "sector": "Environment",
+            "year": 2025,
+            "image": "environment.jpg"
+        },
+        {
+            "name": "Financial Services",
+            "description": "Investment and forex trading.",
+            "sector": "Finance",
+            "year": 2026,
+            "image": "financial.jpg"
+        }
+    ],
+    "careers": [
+        {
+            "title": "Software Engineer",
+            "location": "Jinja",
+            "type": "Full-time",
+            "posted": "2026-01-15",
+            "image": "software.jpg"
+        },
+        {
+            "title": "Customer Service Officer",
+            "location": "Kampala",
+            "type": "Part-time",
+            "posted": "2026-01-20",
+            "image": "customer.jpg"
+        },
+        {
+            "title": "Project Manager",
+            "location": "Jinja",
+            "type": "Full-time",
+            "posted": "2026-02-01",
+            "image": "manager.jpg"
+        }
+    ]
+}

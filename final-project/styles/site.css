@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #004080;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background: #004080;
+    color: white;
+    padding: 1rem;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+section {
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+form button {
+    background-color: #004080;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #0066cc;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+/* Default: small screens */
+#nav-links {
+    display: none;
+    /* hidden by default */
+    flex-direction: column;
+    background: #004080;
+}
+
+#nav-links a {
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.service-card,
+.career-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+/* Default image size (desktop/tablet) */
+.service-card img,
+.career-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+/* Text column */
+.service-card .text,
+.career-card .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+
+    .service-card,
+    .career-card {
+        flex-direction: column;
+        /* stack content vertically */
+        align-items: center;
+        /* center items */
+        text-align: center;
+    }
+
+    .service-card h3,
+    .career-card h3 {
+        order: -1;
+        /* move title above image */
+        margin-bottom: 0.5rem;
+    }
+
+    .service-card img,
+    .career-card img {
+        width: 80px;
+        /* smaller image size */
+        height: 80px;
+        margin-bottom: 0.5rem;
+    }
+
+    .service-card .text,
+    .career-card .text {
+        align-items: center;
+        /* center text under image */
+    }
+}
+
+
+.service-card h3 {
+    color: #0066cc;/
+}
+
+.career-card h3 {
+    color: #0066cc;
+}
+
+#services-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+#careers-container {
+    display: flex;
+    flex-direction: column;
+}
