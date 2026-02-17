@@ -1,4 +1,3 @@
-// Hamburger toggle for small screens
 const menuToggle = document.getElementById('menu-toggle');
 const navLinks = document.getElementById('nav-links');
 if (menuToggle && navLinks) {
@@ -7,7 +6,7 @@ if (menuToggle && navLinks) {
     });
 }
 
-// Local Storage Example: Save user name from contact form
+
 const contactForm = document.getElementById('contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', () => {
@@ -16,7 +15,6 @@ if (contactForm) {
     });
 }
 
-// Footer script: update year and last modified
 document.addEventListener("DOMContentLoaded", () => {
     const yearSpan = document.getElementById("currentyear");
     const modifiedSpan = document.getElementById("lastModified");

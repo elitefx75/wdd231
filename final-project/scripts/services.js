@@ -1,4 +1,3 @@
-// Hamburger toggle for small screens
 const menuToggle = document.getElementById('menu-toggle');
 const navLinks = document.getElementById('nav-links');
 if (menuToggle && navLinks) {
@@ -14,10 +13,9 @@ async function loadServices() {
 
         const container = document.getElementById('services-container');
 
-        // Array method: filter services from 2024 onwards
+
         const filtered = data.services.filter(service => service.year >= 2024);
 
-        // Template literals + DOM manipulation
         container.innerHTML = filtered.map(service => `
       <div class="service-card">
         <img src="images/${service.image}" alt="${service.name}" loading="lazy">
@@ -45,7 +43,6 @@ async function loadServices() {
     }
 }
 
-// Modal dialog
 function showModal(title, description) {
     const modal = document.createElement('div');
     modal.classList.add('modal');
