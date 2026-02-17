@@ -20,12 +20,6 @@ footer {
     padding: 1rem;
 }
 
-#menu-toggle {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    color: white;
-}
 
 nav {
     display: none;
